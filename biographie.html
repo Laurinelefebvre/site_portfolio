@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Laurine</title>
+    <link rel="stylesheet"href="style.css">
+    <script src="script.js" async></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,900&display=swap" 
+    rel="stylesheet">
+    <link rel="shortcut icon" href="lolo_laurine_marron.png">
+</head>
+<body id="page_biographie">
+    <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
+
+    <header>
+        <div class="logo"></div>
+        <a href="index.html"><img id="imagelogo" src="lolo_laurine_blanc.png" alt="logo_laurine"></a>
+        </div>
+        <div class="conteneur">
+            <nav>
+                <div class= menu_fermé onclick="closeMenuMobile()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg></div>
+                <ul class="menu"> 
+                    <li> <a href="index.html"> 
+                    Accueil </a> </li>
+                    <li> <a href="biographie.html"> 
+                    À propos </a> </li>
+                    <li> <a href="mes_realisations.html"> 
+                    Mes réalisations </a> </li>
+                    <li> <a href="contact.html" class="boutonpetit"> 
+                    Contact </a> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="icon_burger" onclick="openMenuMobile()">
+            <span></span>
+        </div> 
+          
+    
+    </header>
+
+    <div class="bloc1p2">
+
+
+            <h2>
+            À propos de moi
+            </h2>
+
+        <div class="sousdiv1">
+            <img src="photo_bio.png" alt="photo_bio">
+       
+            <p>
+            Hello moi c’est Laurine, originaire de ma belle Bretagne je l’ai quittée durant 2 ans pour réaliser mon DUT en Communication des Organisation à l’IUT Bordeaux Montaigne.
+            Après 2 ans de stratégie de communication je me suis rendue compte que j’avais envie de créer et de me spécialiser dans le Design. Aujourd’hui de retour dans le secteur je finis actuellement mon Bachelor en webdesign à Mydigital School et en alternance aux Ambulances du Golfe (pour en savoir plus je vous laisse regarder mon CV ;) ).
+            <br>
+            <br>
+            Grâce à ces 3 années très enrichissantes, je maîtrise la création d’identité visuelle, le design d’interface web et mobile, la création de site sur des CMS, la gestion des réseaux sociaux…
+            <br>
+            <br>
+            Je suis dynamique, autonome et m’adapte rapidement aux différentes situations.
+            Comme pour moi une image vaut mille mots je vous laisse découvrir ma présentation en Motion Design.
+            </p>
+            
+        </div>
+    </div>
+
+    <div class="iframe">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xvmtKXcCkGo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="bloc2p2">
+        <h2>
+            Mes compétences
+        </h2>
+
+        <h3>
+            Les outils que je maîtrise 
+        </h3>
+
+        <img src="adobe_xd_logo.png" alt="xd">
+        <img src="indesign_logo.png" alt="id">
+        <img src="after_effect_logo.png" alt="ai">
+        <img src="adobe_photoshop.png" alt="PS">
+        <img src="adobe_Illustrator_logo (1).png" alt="ai">
+        <br>
+        <img src="vscode.png" alt="ai">
+        <img src="mamp_pro.png" alt="ai">
+        <img src="html5.png" alt="ai">
+        <img src="logo_css.png" alt="ai">
+        
+
+            
+    </div>
+
+
+    <div id="footer">
+        <p>© 2022 Portfolio Laurine Lefebvre. <br> Tous droits réservés. <br>
+            <a class="mail" href="mailto:laurinelefebvre@orange.fr">laurinelefebvre@orange.fr</a> <br> <a class="tel" href="tel:+33787701660"> 07 87 70 16 60</a></p>
+    
+            <a href="https://www.linkedin.com/in/laurine-lefebvre-8b06aa174/" target=_blank><img id="imageLinkedin" src="linkedin_logo.png" ></a> 
+     
+    </div>
+
+
+    <script>
+        function openMenuMobile() {
+            document.querySelector('.conteneur').classList.add('open');
+            document.querySelector('.overlay-menu-mobile').classList.add('open');
+        }
+        function closeMenuMobile() {
+            document.querySelector('.conteneur').classList.remove('open');
+            document.querySelector('.overlay-menu-mobile').classList.remove('open');
+        }
+    </script>
+</body>
+</html>

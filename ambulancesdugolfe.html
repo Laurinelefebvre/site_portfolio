@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Laurine</title>
+    <link rel="stylesheet"href="style.css">
+    <script src="script.js" async></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,900&display=swap" 
+    rel="stylesheet">
+    <link rel="shortcut icon" href="lolo_laurine_marron.png">
+</head>
+<body id="ambulancesdugolfe">
+    <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
+
+    <header>
+        <div class="logo"></div>
+        <a href="index.html"><img id="imagelogo" src="lolo_laurine_blanc.png" alt="logo_laurine"></a>
+        </div>
+        <div class="conteneur">
+            <nav>
+                <div class= menu_fermé onclick="closeMenuMobile()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg></div>
+                <ul class="menu"> 
+                    <li> <a href="index.html"> 
+                    Accueil </a> </li>
+                    <li> <a href="biographie.html"> 
+                        À propos </a> </li>
+                    <li> <a href="mes_realisations.html"> 
+                    Mes réalisations </a> </li>
+                    <li> <a href="contact.html" class="boutonpetit"> 
+                    Contact </a> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="icon_burger" onclick="openMenuMobile()">
+            <span></span>
+        </div> 
+          
+    
+    </header>
+
+<div class="bloc1p5">
+            <h2> Ambulances du Golfe  </h2>
+            <h4>Web </h4>
+            <a href="https://ambulancesdugolfe.com/" target=_blank> ambulancesdugolfe.com </a>
+            <p> Création du site web <br> Maintenance du site</p>
+        
+
+            <h4>Réseaux sociaux </h4>
+            <a href="https://www.instagram.com/ambulances_du_golfe/?hl=fr" target=_blank> @ambulancesdugolfe </a>
+            <p> Création du Instagram, du Facebook et du Linkedin <br> Prise de contenu <br> Gestion des comptes</p>
+
+            <h4>Graphisme</h4>
+            <p> Création de différents supports visuels, page publicitaire, panneau, Calendrier </p>
+
+            <h4>Audiovisuel</h4>
+            <p> Organisation, montage et étalonnage de la vidéo de présentation <br>Réalisation d’un motion design </p>
+
+           
+         
+</div>
+
+<div class="bloc2p5"> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WIjczRBkzOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/khxs-d_vQ6E?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+<div class="bloc3p5">
+    <img class="img4" src="calendrier_adg.png" />
+    <img class="img5" src="web.png" />
+</div>
+
+<div class="fleches">
+    <a href="iutbordeaux.html" class="flechegauchea"><img  class="flechegauche" src="fleche_gauche.png" alt=""></a>
+    <a href="comdesorgas.html"class="flechedroitea"><img  class="flechedroite" src="fleche_droite.png" alt=""></a>
+    
+</div>
+
+
+<div id="footer">
+    <p>© 2022 Portfolio Laurine Lefebvre. <br> Tous droits réservés. <br>
+        <a class="mail" href="mailto:laurinelefebvre@orange.fr">laurinelefebvre@orange.fr</a> <br> <a class="tel" href="tel:+33787701660"> 07 87 70 16 60</a></p>
+
+        <a href="https://www.linkedin.com/in/laurine-lefebvre-8b06aa174/" target=_blank><img id="imageLinkedin" src="linkedin_logo.png" ></a> 
+ 
+</div>
+
+
+    <script>
+        function openMenuMobile() {
+            document.querySelector('.conteneur').classList.add('open');
+            document.querySelector('.overlay-menu-mobile').classList.add('open');
+        }
+        function closeMenuMobile() {
+            document.querySelector('.conteneur').classList.remove('open');
+            document.querySelector('.overlay-menu-mobile').classList.remove('open');
+        }
+    </script>
+</body>
+</html>
