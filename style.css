@@ -1148,8 +1148,8 @@ margin-right: 10px;
 
     }
     .carre7 img{
-        margin-top: 30%;
-        height: 100px;
+        margin-top: 23%;
+        height: 150px;
         margin-right: auto;
         margin-left: auto;
 
@@ -1170,7 +1170,7 @@ margin-right: 10px;
         font-size: 16px;
         font-weight: 300;
         color: #E8E5E1;
-        margin-top: -75px;
+        margin-top: -90px;
         margin-left: 150px;
         
     }
@@ -1201,6 +1201,132 @@ margin-right: 10px;
     .carre7 .p2:before { 
         display: none;
      }
+
+
+    .carre8{
+        height: 300px; 
+        width: 350px;  
+        background-color:#857768;
+
+    }
+    .carre8 img{
+        margin-top: 23%;
+        height: 150px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .carre8 p{
+        opacity: 0;
+        justify-content: center;
+    }
+
+    .carre8:hover img{
+        opacity: 0;
+    }
+    
+    
+    .carre8:hover .p1{
+        opacity: 100;
+        font-size: 16px;
+        font-weight: 300;
+        color: #E8E5E1;
+        margin-top: -90px;
+        margin-left: 150px;
+        
+    }
+    
+    .carre8:hover .p2{
+        opacity: 100;
+        font-size: 16px;
+        font-weight: 300;
+        color: #E8E5E1;
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 16px;
+        
+    }
+    
+    .carre8 .p1:before { 
+        content:''; 
+        margin-left: -150px;
+        margin-top: -5px;
+        display:inline-block; 
+        vertical-align: middle; 
+        width:130px; 
+        height: 1px; 
+        background: #E8E5E1
+     }
+    
+    
+    .carre8 .p2:before { 
+        display: none;
+     }
+
+     
+
+    .carre9{
+        height: 300px; 
+        width: 350px;  
+        background-color:#C5B7AD;
+
+    }
+    .carre9 img{
+        margin-top: 30%;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .carre9 p{
+        opacity: 0;
+        justify-content: center;
+    }
+
+    .carre9:hover img{
+        opacity: 0;
+    }
+    
+    
+    .carre9:hover .p1{
+        opacity: 100;
+        font-size: 16px;
+        font-weight: 300;
+        color: #E8E5E1;
+        margin-top: -75px;
+        margin-left: 150px;
+        
+    }
+    
+    .carre9:hover .p2{
+        opacity: 100;
+        font-size: 16px;
+        font-weight: 300;
+        color: #E8E5E1;
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 16px;
+        
+    }
+    
+    .carre9 .p1:before { 
+        content:''; 
+        margin-left: -150px;
+        margin-top: -5px;
+        display:inline-block; 
+        vertical-align: middle; 
+        width:130px; 
+        height: 1px; 
+        background: #E8E5E1
+     }
+    
+    
+    .carre9 .p2:before { 
+        display: none;
+     }
+
 
 
 
@@ -1480,6 +1606,18 @@ margin-right: 10px;
         height: auto; 
     }
 
+    .img24{
+        width: 75%;
+        max-width: 500px;
+        height: auto; 
+    }
+
+
+    .img25{
+        width: 200px;
+        max-width: 500px;
+        height: auto; 
+    }
     .fleches{
      display: flex;
      justify-content: space-between;
